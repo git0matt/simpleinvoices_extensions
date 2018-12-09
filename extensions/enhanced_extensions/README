@@ -1,1 +1,5 @@
 This extension includes the extension README file, if exists.
+Presnets a question-mark next to the extension id of an extension that has a README file.
+
+TODO:
+Use jQuery.cluetip
