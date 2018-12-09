@@ -1,0 +1,7 @@
+#HOOKS:
+#hook_head_end
+#hook_body_start
+APPENDS:
+templates/default/body.tpl
+templates/default/css/style.css
+templates/default/js/footer.js

@@ -1,0 +1,26 @@
+CLASSES:
+include/class/ShipTo.php
+include/class/st_export.php
+APPENDS:
+lang/en_CA/lang.php
+REDIRECTS:
+lang/en_AU/lang.php -> lang/en_CA/lang.php
+lang/en_GB/lang.php -> lang/en_CA/lang.php
+lang/en_US/lang.php -> lang/en_CA/lang.php
+OVERRIDES:
+modules/export/invoice.php
+modules/export/st_export.php
+modules/invoices/quick_view.php
+modules/invoices/save.php
+templates/default/invoices/details.tpl
+templates/default/invoices/header.tpl
+templates/default/invoices/itemised.tpl
+templates/default/invoices/itemised_invoice_bot.tpl
+templates/default/invoices/itemised_itemtable.tpl
+templates/default/invoices/itemised_setup_toolbar_table.tpl
+templates/default/invoices/quick_view.tpl
+templates/default/invoices/quick_view_consulting.tpl
+templates/default/invoices/quick_view_foreach_consulting.tpl
+templates/default/invoices/quick_view_foreach_itemized.tpl
+templates/default/invoices/quick_view_invoice_view.tpl
+templates/default/invoices/quick_view_itemized.tpl

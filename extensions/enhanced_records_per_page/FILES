@@ -1,0 +1,30 @@
+CLASSES:
+include/class/RowsPerPage.php
+APPENDS:
+templates/default/css/style.css
+lang/en_CA/lang.php
+REDIRECTS:
+lang/en_AU/lang.php -> lang/en_CA/lang.php
+lang/en_GB/lang.php -> lang/en_CA/lang.php
+lang/en_US/lang.php -> lang/en_CA/lang.php
+OVERRIDES:
+modules/billers/xml.php
+modules/customers/xml.php
+modules/invoices/xml.php
+modules/system_defaults/edit.php
+modules/system_defaults/manage.php
+templates/default/billers/manage.tpl
+templates/default/billers/manage.js.tpl
+templates/default/customers/manage.tpl
+templates/default/customers/xml_js.tpl
+templates/default/extensions/manage.tpl
+templates/default/extensions/xml_js.tpl
+templates/default/invoices/manage.tpl
+templates/default/invoices/xml_js.tpl
+templates/default/payments/manage.tpl
+templates/default/payments/xml_js.tpl
+templates/default/products/manage.tpl
+templates/default/products/xml_js.tpl
+templates/default/system_defaults/manage.tpl
+templates/default/user/manage.tpl
+templates/default/user/xml_js.tpl

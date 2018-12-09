@@ -1,0 +1,51 @@
+#navButtons {	line-height: 1em;	}
+.qury {			padding: 1em;	}
+.si_filters_customers,
+.si_filters_billers,
+.si_filters_invoices,
+.si_filters_products,
+.si_filters_user,
+.si_filters_users {	margin-top: 1em;	width: auto;	float: none;	}
+.si_filters_links {	max-width: 90%;	}
+/* filter buttons */
+.si_toolbar button, .si_toolbar a {
+	display: inline-block;
+	border: 1px solid #AAA;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	background: rgb(249,249,249);
+	background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(224,224,224,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(224,224,224,1)));
+	background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(224,224,224,1) 100%);
+	background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(224,224,224,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(224,224,224,1) 100%);
+	background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(224,224,224,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e0e0e0',GradientType=0 );
+	margin-right: 45px;
+}
+
+.si_toolbar a {
+	border-left: 1px solid #ccc;
+	display: inline-block;
+	margin: 0;
+	padding: 8px 10px;
+	min-width: 30px;
+	text-align: center;
+	color: #333;
+	text-shadow:
+	0px -1px 0px rgba(000,000,000,0.2),
+	0px 1px 0px rgba(255,255,255,1);
+}
+
+.si_toolbar a.selected {
+	background: #F5F5F5;
+	color: #444;
+	text-shadow:
+	0px -1px 1px rgba(255,255,255,0.9),
+	0px 1px 0px rgba(255,255,255,1);
+}
+
+.si_toolbar img {
+	margin-right: 7px;
+}

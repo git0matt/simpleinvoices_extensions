@@ -1,0 +1,2 @@
+Added an action button 'new-copy' that will create a new invoice from the details for the selected invoice row.
+NOTE: Files 'modules/x/manage.js.php' have been moved to 'templates/default/x/xml_js.tpl' - because they don't contain any PHP.

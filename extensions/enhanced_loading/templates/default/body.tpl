@@ -1,0 +1,1 @@
+<div style="display: none;" id="loadingDiv"><div class="loader">Loading...</div></div>
