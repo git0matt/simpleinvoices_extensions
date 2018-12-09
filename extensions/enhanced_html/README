@@ -12,4 +12,5 @@ For adding a javascript file, each extension, within templates/default/js is tes
 	.If a inline.js file is found, it's contents will be loaded into the HTML head section.
 
 For adding other HTML, each extension, a file templates/default/body.tpl will be loaded in  the HTML body.
+
 Also the login screen will load extension header/footer templates, if exist.
