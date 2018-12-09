@@ -6,6 +6,7 @@ For adding a javascript file, each extension, within templates/default/js is tes
 
 	.If a header.js file is found, it will be loaded into the HTML head section.
 	.If a footer.js file is found, it will be loaded in the end of HTML body section.
+	.If a script.js file is found, it will be loaded in the end of HTML body section.
 	.If a inhead.js file is found, it's contents will be loaded into the HTML head section.
 	.If a infoot.js file is found, it's contents will be loaded in the end of HTML body section.
 	.If a inline.js file is found, it's contents will be loaded into the HTML head section.
