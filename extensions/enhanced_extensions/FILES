@@ -1,0 +1,11 @@
+CLASSES:
+include/class/enhanced_extensions.php
+OVERRIDES:
+modules/extensions/xml.php
+APPENDS:
+templates/default/js/header.js
+lang/en_CA/lang.php
+REDIRECTS:
+lang/en_AU/lang.php -> lang/en_CA/lang.php
+lang/en_GB/lang.php -> lang/en_CA/lang.php
+lang/en_US/lang.php -> lang/en_CA/lang.php

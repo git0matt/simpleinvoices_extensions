@@ -1,0 +1,11 @@
+OVERRIDES:
+templates/default/
+HOOKS:
+hook_tabmenu_end
+hook_tabmenu_main_end
+APPENDS:
+lang/en_CA/lang.php
+REDIRECTS:
+lang/en_AU/lang.php -> lang/en_CA/lang.php
+lang/en_GB/lang.php -> lang/en_CA/lang.php
+lang/en_US/lang.php -> lang/en_CA/lang.php

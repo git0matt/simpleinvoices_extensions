@@ -1,0 +1,14 @@
+This extension allows more header and footer options.
+
+In each extension, if a style.css file is found, at templates/default/css it will be loaded into the HTML head section.
+
+For adding a javascript file, each extension, within templates/default/js is tested:
+
+	.If a header.js file is found, it will be loaded into the HTML head section.
+	.If a footer.js file is found, it will be loaded in the end of HTML body section.
+	.If a inhead.js file is found, it's contents will be loaded into the HTML head section.
+	.If a infoot.js file is found, it's contents will be loaded in the end of HTML body section.
+	.If a inline.js file is found, it's contents will be loaded into the HTML head section.
+
+For adding other HTML, each extension, a file templates/default/body.tpl will be loaded in  the HTML body.
+Also the login screen will load extension header/footer templates, if exist.

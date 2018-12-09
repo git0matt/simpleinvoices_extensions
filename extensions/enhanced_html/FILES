@@ -1,0 +1,7 @@
+CLASSES:
+include/class/enhanced_html.php
+OVERRIDES:
+templates/default/auth/login.tpl
+templates/default/header.tpl
+templates/default/footer.tpl
+templates/default/headline.xml
